@@ -51,7 +51,7 @@ The project uses the `wiki_movie_plots_deduped.csv` dataset available on kaggle 
 
 ### Document Length Distribution
 
-![Doc Length Distribution](path_to_graph)
+![Doc Length Distribution](Faiss files/heatmat.png)
 
 ### Semantic Similarity Heatmap
 
