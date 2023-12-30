@@ -37,7 +37,7 @@ pip install tensorflow tensorflow-hub sentence-transformers faiss-gpu pandas mat
 
 ## Querying the Index:
 
-- After creating the Faiss indexes, you can query them using `query_USE.ipynb` for USE or `query_SBert.ipynb` for SBERT.
+- After creating the Faiss indexes, you can query them using `search()` and `fetch_movie_info()` function.
 - Provide a query, and the system will return the top-k relevant movie titles based on semantic similarity.
 
 # Data
