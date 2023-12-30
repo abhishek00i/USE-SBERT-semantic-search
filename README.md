@@ -28,12 +28,11 @@ pip install tensorflow tensorflow-hub sentence-transformers faiss-gpu pandas mat
 
 ## USE-based Semantic Search:
 
-1. Run `semantic_search_USE.ipynb`.
+1. Run `Semantic Search with Universal Sentence Encoder (USE) and Sentence-BERT (SBERT) using Faiss.ipynb`.
 2. The notebook loads the Universal Sentence Encoder model, processes the movie dataset, performs semantic search using USE, and saves the Faiss index.
 
 ## SBERT-based Semantic Search:
-
-1. Run `semantic_search_SBert.ipynb`.
+1. From mid point of `Semantic Search with Universal Sentence Encoder (USE) and Sentence-BERT (SBERT) using Faiss.ipynb` you can see the implementation of SBERT.
 2. The notebook loads the Sentence-BERT model, encodes the movie dataset, performs semantic search using SBERT, and saves the Faiss index.
 
 ## Querying the Index:
@@ -47,7 +46,7 @@ The project uses the `wiki_movie_plots_deduped.csv` dataset available on kaggle 
 
 # Results
 
-## USE-based Semantic Search
+## USE-And-SBERT-based Semantic Search
 
 ### Document Length Distribution
 
@@ -55,17 +54,8 @@ The project uses the `wiki_movie_plots_deduped.csv` dataset available on kaggle 
 
 ### Semantic Similarity Heatmap
 
-![Semantic Similarity Heatmap](path_to_graph)
+![heatmat](https://github.com/abhishek00i/USE-SBERT-semantic-search/assets/84246270/450bdd78-0ad1-4700-adb3-35ac7be735ba)
 
-## SBERT-based Semantic Search
-
-### Document Length Distribution
-
-![Doc Length Distribution](path_to_graph)
-
-### Semantic Similarity Heatmap
-
-![Semantic Similarity Heatmap](path_to_graph)
 
 # Conclusion
 
